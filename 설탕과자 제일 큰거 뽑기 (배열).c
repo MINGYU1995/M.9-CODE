@@ -20,12 +20,6 @@ int main()
 		else a[x+j][y]=1;
 		
 	}
-	for(j=0;j<l;j++)
-	{
-		if(d==0) a[x][y+j]=1;
-		else a[x+j][y]=1;
-	}
-	
 	}
 	for(j=1;j<=h;j++)
 	{
